@@ -19,7 +19,13 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 ## Code and Scripts
 
 - `01-data-cleaning-P9.R`: Merges weekly survey files and standardizes responses to question P9 (government approval). Output: `opinion_by_week.csv`.
-- `02-visualization-approval-trends.R`: Generates the time-series plot of public opinion between Weeks 1–29, highlighting key foreign policy events and the election period. Output: `fig_1_gov_opinion.png`.
+- `01-visualization-approval-trends.R`: Generates the time-series plot of public opinion between Weeks 1–29 (based on P9), highlighting key foreign policy events and the election period. Output: `fig_1_gov_opinion.png`.
+- `02-data-cleaning-P8.R`: Standardizes responses to question P8 (government evaluation). Output: `p8_by_week.csv`.
+- `02-visualization-approval-trends.R`: Generates the time-series plot of public opinion between Weeks 1-29 (based on P8), highlighting key foreign policy events and the election period. Output: `fig_2_gov_opinion.png`.
+- `03-data-cleaning-PF14-low-income`: Standardizes responses to question PF14 (monthly income up to 10 minimum wages). Output: `opinion_by_week_income_filtered.csv`.
+- `03-visualization-approval-low-income.R`: Generates the time-series plot of government approval between Weeks 1-29 among respondents earning up to 10 minimum wages (excluding those without income), based on P9 and PF14. Key foreign policy events and the election period were highlighted. Output: `fig_3_gov_opinion_inc_1.png`.
+- `04-data-cleaning-PF14-high-income.R`: Standardizes responses to question PF14 (monthly income greater than 10 minimum wages). Output: `opinion_by_week_income_high.csv`.
+- `04-visualization-approval-high-income.R`: Generates the time-series plot of government approval between Weeks 1-29 among respondents earning more than 10 minimum wages, based on P9 and PF14. Key foreign policy events and the election period were highlighted. Output: `fig_4_gov_opinion_inc_2.png`.
 
 All scripts are written in R and located in the `/scripts/` directory.
 

@@ -18,9 +18,7 @@ caminho <- "data/raw/ipri_weekly_survey_data"
 arquivos <- list.files(path = caminho, pattern = "\\.xlsx$", full.names = TRUE)
 arquivos <- arquivos[grepl("BD \\d+\\.xlsx$", arquivos)]
 
-dados_unificados <- arquivos %>%
-  map_dfr(~ read_excel(.x, col_types = "text") %>%
-            mutate(semana = as.numeric(str_extract(basename(.x), "\\d+"))))
+
 
 glimpse(dados_unificados)
 
@@ -47,6 +45,8 @@ dados_unificados <- dados_unificados %>%
       TRUE ~ NA_character_
     )
   )
+
+# Creating weekly relative frequency table
 
 opinion_by_week <- dados_unificados %>%
   filter(!is.na(opinion_clean)) %>%
