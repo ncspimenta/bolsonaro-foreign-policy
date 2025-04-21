@@ -12,9 +12,9 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 ## Project Structure
 
 - `/data/raw/`: Raw data from Weeks 1 and 6-29, as released by IPRI.
-- `/data/clean`: Cleaned and unified dataset used for analysis (not yet uploaded).
-- `/scripts/`: R scripts for data cleaning, descriptive analysis, and modeling (not yet uploaded).
-- `/figures/`: Visual outputs, such as approval trends, wordclouds, and regression plots (not yet uploaded).
+- `/data/clean`: Cleaned dataset used for analysis.
+- `/scripts/`: R scripts for data cleaning, descriptive analysis, and modeling.
+- `/figures/`: Visual outputs, such as approval trends, wordclouds, and regression plots.
 - `/output/`: Summary of main results and interpretations (not yet uploaded).
 - `article.pdf`: Research article draft based on this project (not yet uploaded).
 
@@ -34,6 +34,8 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 - `03-visualization-approval-low-income.R`: Generates the time-series plot of government approval between Weeks 1-29 among respondents earning up to 10 minimum wages (excluding those without income), based on P9 and PF14. Key foreign policy events and the election period were highlighted. Output: `fig_3_gov_opinion_inc_1.png`.
 
 - `04-data-cleaning-PF14-high-income.R`: Standardizes responses to question PF14 (monthly income greater than 10 minimum wages). Output: `opinion_by_week_income_high.csv`.
+
+- `05-data-summary-income-counts.R`: Calculates the number of respondents in each week by income group: above or below 10 minimum wages (PF14). Output: `respondents_by_income_group.csv`.
 
 - `04-visualization-approval-high-income.R`: Generates the time-series plot of government approval between Weeks 1-29 among respondents earning more than 10 minimum wages, based on P9 and PF14. Key foreign policy events and the election period were highlighted. Output: `fig_4_gov_opinion_inc_2.png`.
 
