@@ -75,6 +75,18 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 
 - `22-visualization-wordcloud-week18-high-income.R`: Generates a wordcloud of responses to open-ended questions (P01 and P02) from Week 18 of the IPRI survey, limited to respondents earning more than 10 minimum wages/month (PF14). Cleans and merges all relevant columns and filters out generic or non-substantive responses. Output: `fig_22_wordcloud_wk17_high_income.png`.
 
+- `23-visualization-wordcloud-un-2019.R`: Generates a wordcloud from Bolsonaro's 2019 UNGA speech. Output: `fig_23_wordcloud_un2019.png`.
+
+- `24-visualization-wordcloud-un-2020.R`: Generates a wordcloud from Bolsonaro's 2020 UNGA speech. Output: `fig_24_wordcloud_un2020.png`.
+
+- `25-visualization-wordcloud-un-2021.R`: Generates a wordcloud from Bolsonaro's 2021 UNGA speech. Output: `fig_25_wordcloud_un2021.png`.
+
+- `26-visualization-wordcloud-un-2022.R`: Generates a wordcloud from Bolsonaro's 2022 UNGA speech. Output: `fig_26_wordcloud_un2022.png`.
+
+- `27-visualization-wordcloud-un-19to22.R`: Generates a wordcloud from Bolsonaro's UNGA speeches from 2019 to 2022. Output: `fig_27_wordcloud_un19to22.png`.
+
+- `28-visualization-bigrams-un-19to22.R`: Extracts and visualizes the 15 most frequent bigrams from Bolsonaro's UNGA speeches (2019-2022). Output: `fig_28_bigram_un19to22.png`. 
+
 
 All scripts are written in R and located in the `/scripts/` directory.
 

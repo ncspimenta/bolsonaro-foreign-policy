@@ -101,3 +101,43 @@ Generated using: 19-visualization-wordcloud-week9-high-income.R
 - fig_20_wordcloud_wk16_high_income.png: Wordcloud of responses to open-ended questions (P01 and P02) from Week 16 of the IPRI survey, filtered to include only respondents earning more than 10 minimum wages/month (PF14).
 
 Generated using: 20-visualization-wordcloud-week16-high-income.R
+
+
+- fig_21_wordcloud_wk17_high_income.png: Wordcloud of responses to open-ended questions (P01 and P02) from Week 17 of the IPRI survey, filtered to include only respondents earning more than 10 minimum wages/month (PF14).
+
+Generated using: 21-visualization-wordcloud-week17-high-income.R
+
+
+- fig_22_wordcloud_wk18_high_income.png: Wordcloud of responses to open-ended questions (P01 and P02) from Week 18 of the IPRI survey, filtered to include only respondents earning more than 10 minimum wages/month (PF14).
+
+Generated using: 22-visualization-wordcloud-week18-high-income.R
+
+
+- fig_23_wordcloud_un2019.png: Wordcloud of Bolsonaro's speech at the UNGA in 2019.
+
+Generated using: 23-visualization-wordcloud-un-2019.R
+
+
+- fig_24_wordcloud_un2020.png: Wordcloud of Bolsonaro's speech at the UNGA in 2020.
+
+Generated using: 24-visualization-wordcloud-un-2020.R
+
+
+- fig_25_wordcloud_un2021.png: Wordcloud of Bolsonaro's speech at the UNGA in 2021.
+
+Generated using: 25-visualization-wordcloud-un-2021.R
+
+
+- fig_26_wordcloud_un2022.png: Wordcloud of Bolsonaro's speech at the UNGA in 2022.
+
+Generated using: 26-visualization-wordcloud-un-2022.R
+
+
+- fig_27_wordcloud_un19to22.png: Wordcloud compiling all of Bolsonaro's speeches at the UNGA from 2019 to 2022.
+
+Generated using: 27-visualization-wordcloud-un-19to22.R
+
+
+- `fig_28_bigram_un19to22.png`: 15 most frequent bigrams from Bolsonaro's speeches at the UNGA from 2019 to 2022.
+
+Generated using: 28-visualization-bigrams-un-19to22.R
