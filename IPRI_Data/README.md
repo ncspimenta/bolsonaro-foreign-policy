@@ -85,7 +85,11 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 
 - `27-visualization-wordcloud-un-19to22.R`: Generates a wordcloud from Bolsonaro's UNGA speeches from 2019 to 2022. Output: `fig_27_wordcloud_un19to22.png`.
 
-- `28-visualization-bigrams-un-19to22.R`: Extracts and visualizes the 15 most frequent bigrams from Bolsonaro's UNGA speeches (2019-2022). Output: `fig_28_bigram_un19to22.png`. 
+- `28-visualization-bigrams-un-19to22.R`: Extracts and visualizes the 15 most frequent bigrams from Bolsonaro's UNGA speeches (2019-2022). Output: `fig_28_bigram_un19to22.png`.
+
+- `29-visualization-wordcloud-speech-ambassadors.R`: Generates a wordcloud from Bolsonaro's 2022 speech to ambassadors. Output: `fig_29_wordcloud_ambassadors.png`.
+
+- `30-visualization-bigrams-ambassadors.R`: Extracts and visualizes the 15 most frequent bigrams from Bolsonaro's speech to ambassadors (2022). Output: `fig_30_bigram_ambassadors.png`.
 
 
 All scripts are written in R and located in the `/scripts/` directory.

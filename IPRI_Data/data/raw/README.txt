@@ -37,3 +37,16 @@ Sources:
 
 
 Format: Plain text (.txt)
+
+
+
+- Ambassadors Meeting Speech – Raw Transcript
+
+This folder also includes the full transcript of the speech delivered by former Brazilian President Jair Bolsonaro on July 18, 2022, to foreign ambassadors in Brasília.
+
+This address became a central piece of the Electoral Court’s (TSE) decision to declare Bolsonaro ineligible for promoting unfounded claims about the integrity of Brazil’s electoral system. The transcript is stored in plain text format (bolsonaro_ambassadors_2022.txt) to enable text analysis and visualization (e.g., wordclouds and keyword extraction). No alterations have been made to the content, aside from formatting adjustments for compatibility with R-based scripts.
+
+Source: Aos Fatos, Brazilian fact-checking agency
+https://www.aosfatos.org/noticias/transcricao-checagens-discurso-bolsonaro-embaixadores/
+
+Format: Plain text (.txt)

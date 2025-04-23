@@ -138,6 +138,16 @@ Generated using: 26-visualization-wordcloud-un-2022.R
 Generated using: 27-visualization-wordcloud-un-19to22.R
 
 
-- `fig_28_bigram_un19to22.png`: 15 most frequent bigrams from Bolsonaro's speeches at the UNGA from 2019 to 2022.
+- fig_28_bigram_un19to22.png: 15 most frequent bigrams from Bolsonaro's speeches at the UNGA from 2019 to 2022.
 
 Generated using: 28-visualization-bigrams-un-19to22.R
+
+
+- fig_29_wordcloud_ambassadors.png: Wordcloud of Bolsonaro's speech to ambassadors in 2022.
+
+Generated using: 29-visualization-wordcloud-speech-ambassadors.R
+
+
+- fig_30_bigram_ambassadors.png: 15 most frequent bigrams from Bolsonaro's speech to ambassadors in 2022.
+
+Generated using: 30-visualization-bigrams-ambassadors.R

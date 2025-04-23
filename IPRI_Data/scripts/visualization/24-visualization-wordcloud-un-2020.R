@@ -24,7 +24,7 @@ tokens <- texto %>%
   unnest_tokens(word, text) %>%
   filter(
     !word %in% stopwords("pt"),
-    !word %in% c("outros", "anotar", "não", "respondeu", "nenhuma", "sabe", "ler", "nh", "pra", "nao", "sobre", "sao", "so", "d", "ser"),
+    !word %in% c("senhores", "senhor", "senhoras", "apenas", "todo", "qualquer", "onde", "ainda", "ser", "quase", "alguns", "outras", "deve", "aqui", "pode", "cada", "agora", "toda"),
     str_detect(word, "[a-z]")
   )
 

@@ -24,7 +24,7 @@ tokens <- texto %>%
   unnest_tokens(word, text) %>%
   filter(
     !word %in% stopwords("pt"),
-    !word %in% c("outros", "anotar", "não", "respondeu", "nenhuma", "sabe", "ler", "nh", "pra", "nao", "sobre", "sao", "so", "d", "ser"),
+    !word %in% c("senhores", "senhor", "senhoras", "apenas", "todo", "qualquer", "onde", "ainda", "ser", "quase", "alguns", "outras", "deve", "aqui", "pode", "cada", "agora", "toda"),
     str_detect(word, "[a-z]")
   )
 
@@ -40,5 +40,5 @@ wordcloud(
   max.words = 100,
   random.order = FALSE,
   colors = brewer.pal(8, "Dark2"),
-  scale = c(2.5, 0.8)
+  scale = c(2.4, 0.8)
 )
