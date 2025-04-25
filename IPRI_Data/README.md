@@ -25,6 +25,8 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 
 - `01-visualization-approval-trends.R`: Generates the time-series plot of public opinion between Weeks 1–29 (based on P9), highlighting key foreign policy events and the election period. Output: `fig_1_gov_opinion.png`.
 
+- `01-analysis-proportions-approval-weeks7to9.R`: Tests wether approval of the Bolsonaro government (P9) changed significantly between Weeks 7-9. A global chi-squared test and three pairwise proportion tests are performed.
+
 - `02-data-cleaning-P8.R`: Standardizes responses to question P8 (government evaluation). Output: `p8_by_week.csv`.
 
 - `02-visualization-approval-trends.R`: Generates the time-series plot of public opinion between Weeks 1-29 (based on P8), highlighting key foreign policy events and the election period. Output: `fig_2_gov_opinion.png`.
@@ -95,10 +97,22 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 All scripts are written in R and located in the `/scripts/` directory.
 
 
-## Data Source
+## Data Sources
 
-All raw data comes from the official open data repository of the Brazilian government:
-[gov.br/secom](https://www.gov.br/secom/pt-br/composicao/orgaos-especificos-singulares/secretaria-de-publicidade-e-patrocinio/departamentos/departamento-de-pesquisa/dados-abertos-de-pesquisas-de-opiniao)
+- **IPRI Survey Data**  
+  All raw data from the IPRI (Instituto de Pesquisa de Reputação e Imagem) surveys comes from the official open data repository of the Brazilian government:  
+  [gov.br/secom](https://www.gov.br/secom/pt-br/composicao/orgaos-especificos-singulares/secretaria-de-publicidade-e-patrocinio/departamentos/departamento-de-pesquisa/dados-abertos-de-pesquisas-de-opiniao)
+
+- **UN General Assembly Speeches by Jair Bolsonaro**  
+  Transcripts of Bolsonaro’s speeches at the UN General Assembly from 2019 to 2022 were manually extracted from official sources:
+  - [2019 – Agência Brasil](https://agenciabrasil.ebc.com.br/politica/noticia/2019-09/presidente-jair-bolsonaro-discursa-na-assembleia-geral-da-onu)
+  - [2020 – Agência Brasil](https://agenciabrasil.ebc.com.br/politica/noticia/2020-09/veja-integra-do-discurso-de-bolsonaro-na-75a-assembleia-geral-da-onu)
+  - [2021 – Planalto (Official Government Website)](https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2021/09/discurso-do-presidente-da-republica-jair-bolsonaro-na-abertura-da-76deg-assembleia-geral-da-onu)
+  - [2022 – Library of the Presidency of the Republic](http://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/bolsonaro/discursos/discurso-do-presidente-da-republica-jair-bolsonaro-na-abertura-do-debate-geral-da-77a-sessao-da-assembleia-geral-das-nacoes-unidas-agnu)
+
+- **Speech to Ambassadors (2022)**  
+  The transcript of Bolsonaro’s July 2022 speech to foreign ambassadors—an event that later contributed to his ineligibility ruling by Brazil’s Electoral Court—was obtained from:  
+  [Aos Fatos](https://www.aosfatos.org/noticias/transcricao-checagens-discurso-bolsonaro-embaixadores/)
 
 
 ## Notes

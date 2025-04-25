@@ -1,14 +1,13 @@
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────
 # Script: 07-visualization-wordcloud-week9.R
-# Generates a wordcloud of responses to open-ended questions
-# (P01 and P02) from Week 9 of the IPRI survey.
+# Generates a wordcloud of responses to P02 from Week 9 of the IPRI survey.
 # Cleans and merges all relevant columns and filters out
 # generic or non-substantive responses.
 # Note: One open-ended column (P1_Out#1) was not included in
 # Week 9 due to interviewer omission, which reduces the sample.
 # Author: Natália Pimenta
 # Date: 2025-04-17
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────
 
 library(readxl)
 library(dplyr)
