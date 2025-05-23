@@ -151,3 +151,18 @@ Generated using: 29-visualization-wordcloud-speech-ambassadors.R
 - fig_30_bigram_ambassadors.png: 15 most frequent bigrams from Bolsonaro's speech to ambassadors in 2022.
 
 Generated using: 30-visualization-bigrams-ambassadors.R
+
+
+- fig_31_wordclouds_un_combined: Figure reuniting all 4 wordclouds of Bolsonaro's speeches at the UNGA from 2019 to 2022.
+
+Generated using: Keynote (copied and pasted `fig_23_wordcloud_un2019.png`, `fig_24_wordcloud_un2020.png`, `fig_25_wordcloud_un2021.png`, and `fig_26_wordcloud_un2022.png`, manually placing them next to each other).
+
+
+- fig_32_wordclouds_7to9: Figure reuniting all 3 wordclouds of responses to open-ended questions (P01 and P02) from Weeks 7-9 of the IPRI survey.
+
+Generated using: Keynote (copied and pasted `fig_5_wordcloud_wk7.png`, `fig_6_wordcloud_wk8.png`, and `fig_7_wordcloud_wk9.png`, manually placing them next to each other).
+
+
+- fig_33_wordclouds_16to18: Figure reuniting all 3 wordclouds of responses to open-ended questions (P01 and P02) from Weeks 16-18 of the IPRI survey.
+
+Generated using: Keynote (copied and pasted `fig_8_wordcloud_wk16.png`, `fig_9_wordcloud_wk17.png`, and `fig_10_wordcloud_wk18.png`, manually placing them next to each other).

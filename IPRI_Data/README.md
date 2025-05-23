@@ -6,6 +6,7 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 ## Research Questions
 
 (1) How did Brazilian public opinion vary during weeks marked by Bolsonaro’s key foreign policy actions in 2022?
+
 (2) Was foreign policy instrumentalized by Bolsonaro as an electoral tool in a polarized environment?
 
 
@@ -14,9 +15,9 @@ This project aims to investigate how Jair Bolsonaro's foreign policy actions in 
 - `/data/raw/`: Raw data from Weeks 1 and 6-29, as released by IPRI.
 - `/data/clean`: Cleaned dataset used for analysis.
 - `/scripts/`: R scripts for data cleaning, descriptive analysis, and modeling.
-- `/figures/`: Visual outputs, such as approval trends, wordclouds, and regression plots.
-- `/output/`: Summary of main results and interpretations (not yet uploaded).
-- `article.pdf`: Research article draft based on this project (not yet uploaded).
+- `/figures/`: Visual outputs, such as approval trends, wordclouds, and bigram analyses.
+- `/output/`: Summary of main results and interpretations.
+- `article.pdf`: Research article draft based on this project.
 
 
 ## Code and Scripts
@@ -121,4 +122,12 @@ All scripts are written in R and located in the `/scripts/` directory.
 
 - Special-topic monthly surveys were also excluded, as they did not follow the same structure, timing, or thematic focus as the regular weekly rounds. Their inclusion could introduce inconsistencies and bias the temporal analysis of public opinion dynamics during 2022.
 
-- We explored stratified wordclouds based on respondents’ income (PF14), separating those earning more than and less than or equal to 10 minimum wages. However, due to a substantial imbalance in sample sizes — with high-income respondents representing only a small fraction of the full sample — we chose not to include these figures in the main analysis. While the scripts remain available in the repository for transparency, they were excluded from the article to maintain analytical focus and avoid misleading visual comparisons.
+- We created weekly approval trend graphs segmented by income groups (≤10 and >10 minimum wages) across the weeks included in the analysis. However, since these trends are not directly related to our core research question, we opted not to include them in the final version of the article. For transparency, the corresponding scripts remain available in the project repository.
+
+- Based on the previous analysis, we also explored stratified wordclouds based on respondents’ income (PF14), separating those earning more than and less than or equal to 10 minimum wages. This approach aimed to assess whether foreign policy was recalled differently across social classes, as there is a common perception that higher-income groups are more attuned to international affairs than lower-income groups. However, due to a substantial imbalance in sample sizes — with high-income respondents representing only a small fraction of the full sample — we chose not to include these figures in the main analysis. Still, the responses related to foreign policy events appeared fairly consistent across the sample. The scripts remain available in the repository for transparency, but the figures were excluded from the article to maintain analytical focus and avoid misleading visual comparisons.
+
+- As the IPRI surveys were commissioned by the Federal Government, the framing or focus of certain questions may have been influenced by institutional interests, potentially affecting the neutrality of the data.
+
+- The reliance on telephone-based data collection may have introduced an income-related bias, as individuals without access to telephones—typically from lower-income backgrounds—were likely excluded. This limitation is particularly relevant given that lower-income groups strongly supported Lula in the 2022 elections, which may affect the representativeness of public opinion reflected in the study.
+
+- Despite these limitations, the dataset remains a valuable resource for analyzing public opinion in Brazil during a period of intense political and diplomatic activity. The surveys offer rare insight into how the general public perceives foreign policy and high-profile international events. While caution is warranted when interpreting the results, the data nonetheless allow for meaningful reflection on the domestic resonance of presidential diplomacy and the role of foreign affairs in shaping public sentiment.
